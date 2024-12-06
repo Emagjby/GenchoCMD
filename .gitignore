@@ -1,0 +1,19 @@
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+bin/
+obj/
+
+# Uncomment if you have tasks that run during build
+# *.vspscc
+# .vs/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
