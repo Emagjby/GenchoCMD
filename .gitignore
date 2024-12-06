@@ -8,9 +8,8 @@
 bin/
 obj/
 
-# Uncomment if you have tasks that run during build
-# *.vspscc
-# .vs/
+*.vspscc
+.vs/
 
 # Windows Installer files
 *.cab
