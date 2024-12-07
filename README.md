@@ -1,6 +1,8 @@
-# GenchoCMD 🖥️
+# GenchoCMD 🖥️ 
 
 GenchoCMD is a command-line application that provides basic **CRUD (Create, Read, Update, Delete)** operations along with simple **user authentication**. Designed with simplicity and modularity in mind, GenchoCMD is a demo app for managing records and exploring CLI-based application development.
+
+## Status: `maintained`
 
 ## Features ✨
 
