@@ -12,12 +12,12 @@ GenchoCMD is a command-line application that provides basic **CRUD (Create, Read
 
 ## Table of Contents 📚
 
-- [Installation](#instalation)
-- [Usage](#usage)
-- [Architecture](#architecture)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Installation](#installation-%EF%B8%8F)
+- [Usage](#usage-)
+- [Architecture](#architecture-%EF%B8%8F)
+- [Project Structure](#project-structure-)
+- [Contributing](#contributing-)
+- [License](#license-)
 
 ## Installation 🛠️
 
