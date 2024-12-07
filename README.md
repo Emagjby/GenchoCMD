@@ -10,8 +10,6 @@ GenchoCMD is a command-line application that provides basic **CRUD (Create, Read
 - **Database Integration:** Stores data using an Access database (`Database.accdb`).
 - **Modular Architecture:** Organized codebase with clear separation of models, controllers, and views.
 
----
-
 ## Table of Contents 📚
 
 - [Installation](#instalation)
@@ -20,8 +18,6 @@ GenchoCMD is a command-line application that provides basic **CRUD (Create, Read
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
-
----
 
 ## Installation 🛠️
 
@@ -55,8 +51,6 @@ GenchoCMD is a command-line application that provides basic **CRUD (Create, Read
    dotnet run --project Program
    ```
 
----
-
 ## Usage 🚀
 
 ### Starting the Application
@@ -78,8 +72,6 @@ GenchoCMD is a command-line application that provides basic **CRUD (Create, Read
 | `delete <item>` | Remove an entity from the database.      |
 | `help`          | Display all available commands.          |
 
----
-
 ## Architecture 🏗️
 
 The project is designed following the **MVC (Model-View-Controller)** pattern:
@@ -96,8 +88,6 @@ The project is designed following the **MVC (Model-View-Controller)** pattern:
 ### Data Storage
 
 - Data is stored in `Database.accdb`, a Microsoft Access database file.
-
----
 
 ## Project Structure 📂
 
@@ -122,8 +112,6 @@ GenchoCMD/
 ├── GenchoCMD.sln        # Solution file
 ```
 
----
-
 ## Contributing 🤝
 
 We welcome contributions from the community! Here's how you can help:
@@ -143,8 +131,6 @@ We welcome contributions from the community! Here's how you can help:
    ```
 5. Open a **pull request** and describe your changes.
 
----
-
 ## License 📜
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
@@ -157,5 +143,3 @@ Feel free to reach out for suggestions or collaboration:
 - **GitHub**: [Emagjby](https://github.com/Emagjby)
 - **Instagram**: [@emagjby](https://www.instagram.com/emagjby/)
 - **Youtube**: [@emagjby](https://www.youtube.com/@emagjby)
-
----
