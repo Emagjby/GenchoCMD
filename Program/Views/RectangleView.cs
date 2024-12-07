@@ -4,9 +4,9 @@ namespace Program
 {
     public class RectangleView
     {
-        public string WaitForCommand()
+        public string WaitForCommand(string username)
         {
-            Console.Write("> ");
+            Console.Write("{0}> ", username);
             return Console.ReadLine();
         }
 

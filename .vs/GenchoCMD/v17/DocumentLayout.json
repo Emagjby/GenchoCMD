@@ -3,39 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\emagj\\Documents\\GenchoCMD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|c:\\users\\emagj\\documents\\genchocmd\\program\\cmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|solutionrelative:program\\cmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|c:\\users\\emagj\\documents\\genchocmd\\program\\cmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\cmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchocmd\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|c:\\users\\emagj\\documents\\genchocmd\\program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|solutionrelative:program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|c:\\users\\emagj\\documents\\genchocmd\\program\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|c:\\users\\emagj\\documents\\genchocmd\\program\\views\\errorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|c:\\users\\emagj\\documents\\genchocmd\\program\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|c:\\users\\emagj\\documents\\genchocmd\\program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\errorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\views\\errorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchocmd\\genchocmd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\genchocmd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchocmd\\imodels\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\imodels\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A18A18D-4E9A-4724-BD22-FB62C2CC3C72}|GenchoModels\\GenchoModels.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchomodels\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A18A18D-4E9A-4724-BD22-FB62C2CC3C72}|GenchoModels\\GenchoModels.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\genchomodels\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A18A18D-4E9A-4724-BD22-FB62C2CC3C72}|GenchoModels\\GenchoModels.csproj|solutionrelative:genchomodels\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A18A18D-4E9A-4724-BD22-FB62C2CC3C72}|GenchoModels\\GenchoModels.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchomodels\\genchomodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchocmd\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\genchocmd\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|solutionrelative:program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchocmd\\imodels\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\imodels\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|c:\\users\\emagj\\documents\\genchocmd\\genchocmd\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\genchocmd\\genchocmd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\genchocmd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\genchocmd\\imodels\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\imodels\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18A18D-4E9A-4724-BD22-FB62C2CC3C72}|GenchoModels\\GenchoModels.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\genchomodels\\genchomodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8A18A18D-4E9A-4724-BD22-FB62C2CC3C72}|GenchoModels\\GenchoModels.csproj|solutionrelative:genchomodels\\genchomodels.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -46,8 +66,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RectangleView.cs",
+              "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\RectangleView.cs",
+              "RelativeDocumentMoniker": "Program\\Views\\RectangleView.cs",
+              "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\RectangleView.cs",
+              "RelativeToolTip": "Program\\Views\\RectangleView.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAABEvQYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:38:57.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginView.cs",
+              "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\LoginView.cs",
+              "RelativeDocumentMoniker": "Program\\Views\\LoginView.cs",
+              "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\LoginView.cs",
+              "RelativeToolTip": "Program\\Views\\LoginView.cs",
+              "ViewState": "AQIAAAcAAABAMzMzMzMrwBMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:37:41.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\Administrator.cs",
+              "RelativeDocumentMoniker": "GenchoCMD\\Administrator.cs",
+              "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\Administrator.cs",
+              "RelativeToolTip": "GenchoCMD\\Administrator.cs",
+              "ViewState": "AQIAAAcAAAAAMzMzMzMLwAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:20:21.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\User.cs",
+              "RelativeDocumentMoniker": "GenchoCMD\\User.cs",
+              "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\User.cs",
+              "RelativeToolTip": "GenchoCMD\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:17:08.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\IModels\\IUser.cs",
+              "RelativeDocumentMoniker": "GenchoCMD\\IModels\\IUser.cs",
+              "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\IModels\\IUser.cs",
+              "RelativeToolTip": "GenchoCMD\\IModels\\IUser.cs",
+              "ViewState": "AQIAAAMAAACEZmZmZmYkwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:15:35.721Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -56,15 +141,15 @@
               "RelativeDocumentMoniker": "Program\\Views\\ErrorView.cs",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\ErrorView.cs",
               "RelativeToolTip": "Program\\Views\\ErrorView.cs",
-              "ViewState": "AQIAAAIAAABoZWZmZmYSwAYAAAARAAAA",
+              "ViewState": "AQIAAAoAAADAZmZmZmYkwAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T20:27:28.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenchoCMD",
+              "DocumentIndex": 11,
+              "Title": "GenchoCMD.csproj",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\GenchoCMD.csproj",
               "RelativeDocumentMoniker": "GenchoCMD\\GenchoCMD.csproj",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\GenchoCMD.csproj",
@@ -76,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoModels\\Rectangle.cs",
               "RelativeDocumentMoniker": "GenchoModels\\Rectangle.cs",
@@ -89,33 +174,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GenchoModels",
+              "DocumentIndex": 13,
+              "Title": "GenchoModels.csproj",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoModels\\GenchoModels.csproj",
               "RelativeDocumentMoniker": "GenchoModels\\GenchoModels.csproj",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoModels\\GenchoModels.csproj",
               "RelativeToolTip": "GenchoModels\\GenchoModels.csproj",
-              "ViewState": "AQIAAAIAAACAMzMzMzMLwAAAAAAAAAAA",
+              "ViewState": "AQIAAAIAAACAMzMzMzMLwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-06T19:54:30.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Application.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Application.cs",
               "RelativeDocumentMoniker": "Program\\Application.cs",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Application.cs",
               "RelativeToolTip": "Program\\Application.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAcAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T19:34:11.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "RectangleView.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\RectangleView.cs",
               "RelativeDocumentMoniker": "Program\\Views\\RectangleView.cs",
@@ -123,8 +208,7 @@
               "RelativeToolTip": "Program\\Views\\RectangleView.cs",
               "ViewState": "AQIAAAwAAACAZ2ZmZmYkwBYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T18:56:47.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T18:56:47.425Z"
             },
             {
               "$type": "Document",
@@ -134,27 +218,27 @@
               "RelativeDocumentMoniker": "Program\\CMDController.cs",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\CMDController.cs",
               "RelativeToolTip": "Program\\CMDController.cs",
-              "ViewState": "AQIAACIAAABAy8zMzMwmwCsAAAAeAAAA",
+              "ViewState": "AQIAAFIAAACAZmZmZmYkwGAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T18:51:24.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Help.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\Help.cs",
               "RelativeDocumentMoniker": "GenchoCMD\\Help.cs",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\Help.cs",
               "RelativeToolTip": "GenchoCMD\\Help.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAACAvT0AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T18:50:48.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ICommand.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\IModels\\ICommand.cs",
               "RelativeDocumentMoniker": "GenchoCMD\\IModels\\ICommand.cs",
