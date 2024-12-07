@@ -32,7 +32,8 @@ namespace ConsoleApp.Views
 
         public void SuccessfulLogout()
         {
-            Console.WriteLine("Logged out.");
+            Console.Clear();
+            Console.WriteLine("Logged out.\n");
         }
 
         public (string Username, string Password) GetLoginDetailsFromUser()

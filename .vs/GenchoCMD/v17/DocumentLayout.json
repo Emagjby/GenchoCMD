@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\cmdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|solutionrelative:program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\views\\loginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|solutionrelative:program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\ConsoleApp.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\errorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\genchocmd\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|solutionrelative:genchocmd\\help.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ADE24E-314F-4F44-9EEE-C6337826C614}|Program\\Program.csproj|solutionrelative:program\\views\\rectangleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D08B2091-9EA3-4424-8FF9-672101BEB26E}|GenchoCMD\\GenchoCMD.csproj|C:\\Users\\emagj\\Documents\\GenchoCMD\\genchocmd\\imodels\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,31 +70,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "RectangleView.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\RectangleView.cs",
               "RelativeDocumentMoniker": "Program\\Views\\RectangleView.cs",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\RectangleView.cs",
               "RelativeToolTip": "Program\\Views\\RectangleView.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAABEvQYAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T08:38:57.426Z"
+              "WhenOpened": "2024-12-07T08:38:57.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginView.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\LoginView.cs",
               "RelativeDocumentMoniker": "Program\\Views\\LoginView.cs",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\LoginView.cs",
               "RelativeToolTip": "Program\\Views\\LoginView.cs",
-              "ViewState": "AQIAAAcAAABAMzMzMzMrwBMAAABYAAAA",
+              "ViewState": "AQIAAA8AAAAAMzMzMzMbwCMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T08:37:41.7Z"
+              "WhenOpened": "2024-12-07T08:37:41.7Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Administrator.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\Administrator.cs",
               "RelativeDocumentMoniker": "GenchoCMD\\Administrator.cs",
@@ -130,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ErrorView.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\ErrorView.cs",
               "RelativeDocumentMoniker": "Program\\Views\\ErrorView.cs",
@@ -154,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoModels\\Rectangle.cs",
               "RelativeDocumentMoniker": "GenchoModels\\Rectangle.cs",
@@ -178,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Application.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Application.cs",
               "RelativeDocumentMoniker": "Program\\Application.cs",
@@ -186,11 +188,12 @@
               "RelativeToolTip": "Program\\Application.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:34:11.103Z"
+              "WhenOpened": "2024-12-06T19:34:11.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "RectangleView.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\Views\\RectangleView.cs",
               "RelativeDocumentMoniker": "Program\\Views\\RectangleView.cs",
@@ -208,14 +211,14 @@
               "RelativeDocumentMoniker": "Program\\CMDController.cs",
               "ToolTip": "C:\\Users\\emagj\\Documents\\GenchoCMD\\Program\\CMDController.cs",
               "RelativeToolTip": "Program\\CMDController.cs",
-              "ViewState": "AQIAAIUAAACAZmZmZmYkwIcAAAAKAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAADwv14AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T18:51:24.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Help.cs",
               "DocumentMoniker": "C:\\Users\\emagj\\Documents\\GenchoCMD\\GenchoCMD\\Help.cs",
               "RelativeDocumentMoniker": "GenchoCMD\\Help.cs",

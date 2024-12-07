@@ -1,6 +1,7 @@
 ﻿using ConsoleApp.Views;
 using GenchoCMD;
 using GenchoModels;
+using System.Configuration;
 using System.Data.OleDb;
 
 namespace Program
@@ -21,8 +22,44 @@ namespace Program
             waitForCommand();
         }
 
+        public void RemoveFromDb()
+        {
+            OleDbConnection connection = new OleDbConnection(connectionString);
+            connection.Open();
+
+            string querry = "DELETE " +
+                "FROM Rectangles " +
+                "WHERE UserID = ?";
+
+            OleDbCommand command = new OleDbCommand(querry, connection);
+            command.Parameters.AddWithValue("?", LogedInUserID);
+            command.ExecuteNonQuery();
+
+            connection.Close();
+        }
+
+        public void SaveToDb()
+        {
+            OleDbConnection connection = new OleDbConnection(connectionString);
+            connection.Open();
+
+            for(int i = 0; i < rectangles.Count; i++)
+            {
+                var rect = rectangles[i];
+
+                string queue = "INSERT INTO Rectangles ([RectangleID],[UserID],[Width],[Height])" +
+                $"VALUES ('{i}', '{LogedInUserID}', '{rect.Width}', '{rect.Height}')";
+
+                OleDbCommand command = new OleDbCommand (queue, connection);
+                command.ExecuteNonQuery();
+            }
+            connection.Close();
+        }
+
         public void Register()
         {
+            EmptyRectanglesList();
+
             var (username, password) = loginView.GetRegisterDetailsFromUser();
 
             OleDbConnection connection = new OleDbConnection(connectionString);
@@ -30,31 +67,70 @@ namespace Program
 
             string querry = "INSERT INTO Users ([Username], [Password]) " +
                 $"VALUES ('{username}', '{password}')";
+            try{
+                OleDbCommand command = new OleDbCommand(querry, connection);
+                command.ExecuteNonQuery();
 
-            OleDbCommand command = new OleDbCommand(querry, connection);
-            command.ExecuteNonQuery();
+                querry = "SELECT [UserID], [Username]" +
+                    "FROM Users " +
+                    $"WHERE Username = ? AND Password = ?";
 
-            querry = "SELECT [UserID], [Username]" +
-                "FROM Users " +
-                $"WHERE Username = ? AND Password = ?";
+                command = new OleDbCommand(querry, connection);
+                command.Parameters.AddWithValue("?", username);
+                command.Parameters.AddWithValue("?", password);
 
-            command = new OleDbCommand(querry, connection);
-            command.Parameters.AddWithValue("?", username);
-            command.Parameters.AddWithValue("?", password);
+                OleDbDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    LogedInUserID = Convert.ToInt32(reader["UserID"]);
+                    LogedInUsername = Convert.ToString(reader["Username"]);
+                    loginView.SuccessfulLogin();
+                }
+                else
+                {
+                    loginView.FailedLogin();
+                }
+                    reader.Close(); 
+            } catch(Exception ex)
+            {
+                Console.WriteLine("This username already exists, or you used illegal characters");
+            }
+            connection.Close();
+        }
+
+        public void EmptyRectanglesList()
+        {
+            rectangles = new List<Rectangle>();
+        }
+
+        public void LoadRectanglesFromDb()
+        {
+            EmptyRectanglesList();
+
+            OleDbConnection connection = new OleDbConnection(connectionString);
+            connection.Open();
+
+            string query = "SELECT [Width], [Height] " +
+                           "FROM Rectangles " +
+                           "WHERE UserID = ? " +
+                           "ORDER BY RectangleID ASC";
+
+            OleDbCommand command = new OleDbCommand(query, connection);
+            command.Parameters.AddWithValue("?", LogedInUserID);
 
             OleDbDataReader reader = command.ExecuteReader();
-            if (reader.Read())
+            while (reader.Read())
             {
-                LogedInUserID = Convert.ToInt32(reader["UserID"]);
-                LogedInUsername = Convert.ToString(reader["Username"]);
-                loginView.SuccessfulLogin();
+                double width = reader.GetDouble(0); 
+                double height = reader.GetDouble(1); 
+                rectangles.Add(new Rectangle(width, height)); // Add to list
             }
-            else
-            {
-                loginView.FailedLogin();
-            }
-            reader.Close();
+
+            connection.Close();
+
+            Console.WriteLine("Loaded " + rectangles.Count + " rectangles for UserID: " + LogedInUserID);
         }
+
 
         public void Login()
         {
@@ -77,16 +153,22 @@ namespace Program
                 LogedInUserID = Convert.ToInt32(reader["UserID"]); ;
                 LogedInUsername = Convert.ToString(reader["Username"]);
                 loginView.SuccessfulLogin();
+                EmptyRectanglesList();
+                LoadRectanglesFromDb();
             }
             else
             {
                 loginView.FailedLogin();
             }
             reader.Close();
+
+            connection.Close();
         }
 
         public void Logout()
         {
+            RemoveFromDb();
+            SaveToDb();
             LogedInUserID = null;
             LogedInUsername = null;
             loginView.SuccessfulLogout();
@@ -153,12 +235,10 @@ namespace Program
                             Console.Clear();
                             break;
                         case "logout":
-                            Logout();
-                            break;
                         case "quit":
                         case "exit":
                         case "x":
-                            isRunning = false;
+                            Logout();
                             break;
                         default:
                             errorView.UnknownCommandError(command[0]);
